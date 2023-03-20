@@ -20,6 +20,14 @@ kras%>%select(-os.months)->expression
 df<-logitloop(expression,outcome="os.status")
 df
 
-
 ```
 ![res](https://github.com/cdesterke/logitloop/blob/main/df.png)
+
+
+## plot the coefficient results
+```r
+plotcoef(df,nb=11,title="")
+
+```
+![res](https://github.com/cdesterke/logitloop/blob/main/beta.png)
+
