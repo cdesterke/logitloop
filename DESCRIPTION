@@ -1,0 +1,12 @@
+Package: logitloop
+Type: Package
+Title: logitloop iterative loop of univariate logit analyses
+Version: 1.0.0
+Author: Christophe Desterke
+Maintainer: The package maintainer <christophe.desterke@gmail.com>
+Description: This package allows to perform iterative logistic regression on
+        every column of a dataset except outcome column which needs to be as.factor.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
